@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.site-header {
+    height: 50px;
+    width: 100%;
+    background-color: #0b2d42;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    top: 0;
+    left: 0;
+}

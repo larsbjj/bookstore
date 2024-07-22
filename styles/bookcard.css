@@ -1,0 +1,102 @@
+.book-card {
+    background-color: #ffffff;
+    color: #333333;
+    width: 320px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 50px 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 1.4em;
+    margin: 0;
+    color: #333333;
+}
+
+.book-cover {
+    width: 50px;
+    height: 75px;
+    background-color: #cccccc;
+    border: 1px solid #bbbbbb;
+}
+
+.price-likes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.likes {
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    color: #4CAF50;
+}
+
+.heart-icon {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.details {
+    margin-bottom: 10px;
+    color: #666666;
+}
+
+.comments {
+    margin-bottom: 10px;
+    color: #666666;
+}
+
+.comments h3 {
+    margin: 0 0 10px 0;
+    color: #333333;
+}
+
+.comments p {
+    margin: 5px 0;
+}
+
+.comment-box {
+    display: flex;
+}
+
+.comment-box input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    color: #333333;
+}
+
+.comment-box input::placeholder {
+    color: #999999;
+}
+
+.comment-box img {
+    height: 35px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+hr.solid {
+    border-top: 2px solid #eeeeee;
+    margin: 10px 0;
+}
